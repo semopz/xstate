@@ -1,7 +1,7 @@
 {
   "name": "@xstate/viz-example",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1-next.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@xstate/react": "^1.0.0-rc.0",
+    "@xstate/react": "^1.0.0-next.2",
     "react-app-polyfill": "^1.0.0"
   },
   "alias": {
