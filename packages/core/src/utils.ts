@@ -524,7 +524,7 @@ export function isObservable<T>(
 }
 
 export const symbolObservable = (() =>
-  (typeof Symbol === 'function' && Symbol.observable) || '@@observable')();
+  ('@@observable')();
 
 export function isMachine(value: any): value is StateMachine<any, any, any> {
   try {
